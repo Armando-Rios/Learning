@@ -1,0 +1,12 @@
+{
+  "name": "1-introduccion-a-javascript",
+  "version": "1.0.0",
+  "description": "introduccion a JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "saludo": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Armando-Rios",
+  "license": "ISC"
+}

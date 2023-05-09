@@ -1,0 +1,10 @@
+let nombre = "Armando";
+let apellido = "Rios";
+let estudiante = nombre + " " + apellido;
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let numberstr = estudiante.length;
+let firstleter = nombre.slice(0 , 1)
+let lastleter = apellido.slice(-1)
+let spaces = estudiante.trim()
+let real = estudiante.includes(nombre)

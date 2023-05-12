@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Elementos de Interés en Bootstrap</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<section class="container mt-5">
+		<div class="jumbotron">
+			<h1 class="display-4">¡Bienvenido a mi sitio web!</h1>
+			<p class="lead">Este es un sitio web de ejemplo creado con Bootstrap.</p>
+			<hr class="my-4">
+			<p>Bootstrap es un framework de diseño web que permite crear sitios web de manera rápida y sencilla.</p>
+			<a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Contáctame</a>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="myModalLabel">Contáctame</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+								<label for="nombre">Nombre:</label>
+								<input type="text" class="form-control" id="nombre">
+							</div>
+							<div class="form-group">
+								<label for="telefono">Teléfono:</label>
+								<input type="number" class="form-control" id="telefono">
+							</div>
+							<div class="form-group">
+								<label for="mensaje">Mensaje:</label>
+								<textarea class="form-control" id="mensaje" rows="3"></textarea>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+						<button type="button" class="btn btn-primary">Enviar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container mt-5">
+		<form>
+			<div class="form-group">
+				<label for="nombre">Nombre:</label>
+				<input type="text" class="form-control" id="nombre">
+			</div>
+			<div class="form-group">
+				<label for="telefono">Teléfono:</label>
+				<input type="number" class="form-control" id="telefono">
+			</div>
+			<div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+    
+    <section class="container mt-5 mb-5">
+        <div class="card" style="width: 20rem; height: 20rem">
+            <div class="card-body">
+                <img src="https://www.sectorlink.com/img/blog/web-devel-important.jpg" alt="" class="card-img">
+                <h5 class="card-title mt-3">Armando Rios</h5>
+                <p class="card-text">Soy Desarrollador web</p>
+            </div>
+            <div class="card-footer">rios25866@gmail.com</div>
+        </div>
+    </section>
+</body>
+</html>

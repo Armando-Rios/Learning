@@ -1,0 +1,47 @@
+@use "components";
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    border-bottom: solid 1px #ddd;
+}
+.logo {
+    img{
+        height: 1.5rem;
+    }
+}
+
+.sec-home{
+    display: flex;
+    width: 100%;
+    max-width: 768px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    .home-cta{
+        .cta-text{
+            color: components.$color-main;
+        }
+        .home-title{
+            width: 30rem;
+            font-size: 4.5rem;
+        }
+        .home-description{
+            width: 30rem;   
+            font-weight: 400; 
+            color: rgb(39, 39, 39);
+        }
+        .lead-magnet{
+            width: 50rem;
+        }
+    }
+    .home-img img{
+        width: 600px;
+    }
+}
